@@ -57,10 +57,9 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx docker docker-compose svn kubectl)
+plugins=(git osx docker docker-compose svn)
 
 source $ZSH/oh-my-zsh.sh
-source <(kubectl completion zsh)
 
 # User configuration
 
@@ -114,3 +113,5 @@ prompt_svn() {
         fi
     fi
 }
+# export PATH="/usr/local/opt/texinfo/bin:$PATH"
+export PATH="/usr/local/opt/texinfo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/local/bin:/opt/X11/bin:$PATH"
