@@ -1,6 +1,2 @@
 # dotfiles
-
-### Mac
-Dotfiles for vim and zsh / ohmyzsh
-
-### Linux
+### Trying out chezmoi for now
